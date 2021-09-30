@@ -3,6 +3,10 @@ body {
     font-family: Roboto;
 }
 
+p {
+    color: blue;
+}
+
 H1, H2 {
     font-weight: 500;
 }
