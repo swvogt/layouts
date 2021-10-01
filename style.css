@@ -72,7 +72,6 @@ H1, H2 {
 
 .center-panel {
     max-width: 1200px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
@@ -145,18 +144,22 @@ button {
     float: right;
 }
 
+.bread-crumb {
+    margin-bottom: 12px;
+    display: block;
+}
 
-/* below 1260px */
-@media only screen and (max-width: 1260px) {
-    .panel {
-        display: none;
-    }
+.tab {
+    color: #10528E;
+    margin-right: 24px;
+}
+
+.tab-group {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+
+/* above 1440 */
+@media only screen and (min-width: 1440px) {
   }
-
-/* below 800px */
-  @media only screen and (max-width: 800px) {
-    .column-container {
-      flex-direction: column;
-    }
-  }
-
