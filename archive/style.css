@@ -9,7 +9,6 @@ p {
 
 H1, H2 {
     font-weight: 500;
-    margin-top: 0px;
 }
 .app {
     background-color: white;
@@ -51,23 +50,6 @@ H1, H2 {
 
 .scroll-frame {
     overflow: auto;  
-}
-
-.text-input {
-    margin-bottom: 4px;
-    display: block;
-    font-size: 14px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.row-child {
-    flex: 1 1 auto;
-    padding-right: 24px;
 }
 
 .center-panel {
@@ -122,24 +104,22 @@ H1, H2 {
     width: 100%;
 }
 
-input[type=text], input[type=textarea], select {
+input[type=text], select {
     width: 100%;
     padding: 12px;
+    margin: 8px;
+    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 16px;
   }
 
-
-/* below 1260px */
 @media only screen and (max-width: 1260px) {
     .panel {
         display: none;
     }
   }
 
-/* below 800px */
   @media only screen and (max-width: 800px) {
     .column-container {
       flex-direction: column;
